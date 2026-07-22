@@ -463,49 +463,20 @@ p {
     margin: 0 auto 48px auto;
 }
 
-.illustration-placeholder {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    background: var(--pure-white);
-}
-
-.ai-nodes {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-bottom: 24px;
-}
-
-.node {
-    width: 20px;
-    height: 20px;
-    background: var(--navy-blue);
-    border-radius: 50%;
-    animation: pulse 2s infinite alternate;
-}
-
-.center-node {
-    width: 80px;
-    height: 80px;
-    background: var(--primary-cyan);
-    color: var(--navy-blue);
+.solution-visual {
+    margin-top: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 800;
-    font-size: 1.2rem;
-    border-radius: 50%;
-    box-shadow: 0 0 30px var(--primary-cyan-glow);
+    width: 100%;
 }
 
-@keyframes pulse {
-    from { transform: scale(1); opacity: 0.5; }
-    to { transform: scale(1.2); opacity: 1; }
+.blueprint-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 16px 48px 0 rgba(2, 132, 199, 0.15);
+    border: 1px solid rgba(2, 132, 199, 0.2);
 }
 
 /* Science (SEM Model) Section */
@@ -659,16 +630,32 @@ p {
 }
 
 .mockup-visual {
-    height: 300px;
-    margin-top: 24px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 24px auto 0 auto;
     border-radius: 12px;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.mockup-visual img.tab-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mockup-visual.placeholder-bg {
+    border: 2px dashed #E0E0E0;
+    box-shadow: none;
+    background: var(--light-gray);
+    aspect-ratio: 1/1;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--light-gray);
     color: var(--text-gray);
-    border: 2px dashed #E0E0E0;
-    font-weight: 500;
 }
 
 /* Value Chain Section */
