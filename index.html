@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسار — تنبؤ استباقي بالأثر المروري</title>
+    <!-- Google Fonts: Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- AOS Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation (Optional, but good for SaaS feel) -->
+    <header class="navbar" data-aos="fade-down" data-aos-duration="1000">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="شعار مسار" class="logo-img">
+                <span class="logo-text">مسار<span class="logo-dot">.</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#problem">المشكلة</a>
+                <a href="#solution">الحل المقترح</a>
+                <a href="#prototype">النموذج الأولي</a>
+                <a href="#impact">الأثر المتوقع</a>
+            </nav>
+            <a href="#prototype" class="btn btn-primary btn-small">المنصة</a>
+        </div>
+    </header>
+
+    <!-- SECTION 1: Hero Section (The 3D Vision) -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-left" data-aos-duration="1200">
+                <div class="hero-badges">
+                    <div class="badge glow-badge">الجهة المالكة للتحدي: وكالة التخطيط الحضري والأراضي</div>
+                    <div class="badge vision-badge">مُمَكِّن لرؤية 2030: الارتقاء بجودة الحياة لإدراج 3 مدن سعودية ضمن أفضل 100 مدينة للعيش عالمياً</div>
+                </div>
+                <h1 class="hero-title">
+                    مسار — تنبؤ استباقي بالأثر المروري
+                    <span class="text-gradient">لمشاريع البنية التحتية</span>
+                </h1>
+                
+                <div class="team-chic" data-aos="fade-up" data-aos-delay="100">
+                    <span class="team-label">فريق العمل:</span>
+                    <div class="team-members-list">
+                        <div class="team-member">
+                            <svg class="team-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            إبراهيم أمين هوسه <span class="member-role">مهندس ميكانيكي</span>
+                        </div>
+                        <div class="team-member">
+                            <svg class="team-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            ريان أمين هوسه <span class="member-role">مهندس كهربائي</span>
+                        </div>
+                        <div class="team-member">
+                            <svg class="team-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            رائد أمين هوسه <span class="member-role">علوم حاسب آلي</span>
+                        </div>
+                        <div class="team-member">
+                            <svg class="team-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            عبدالله سعيد جلاله <span class="member-role">مهندس كهربائي</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="hero-subtitle">
+                    محرك ذكاء اصطناعي يحوّل بيانات مشروع البنية التحتية إلى قرار تشغيلي جاهز قبل بدء الحفر.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#prototype" class="btn btn-primary">استكشف النموذج الأولي</a>
+                    <a href="#value-chain" class="btn btn-outline">شاهد آلية العمل</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                <video class="hero-video glass-panel" autoplay loop muted playsinline>
+                    <source src="2026-07-22_18-54-38_Lumina.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+            </div>
+        </div>
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+    </section>
+
+    <!-- SECTION 2: The Problem (Grid Cards) -->
+    <section class="problem-section bg-light" id="problem">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>التحديات الحالية في إدارة المشاريع</h2>
+                <p>تفتقر الآلية الحالية إلى أدوات التنبؤ المسبق والذكاء المكاني.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">1</div>
+                    <p><strong>قرارات ردّية لا استباقية:</strong> تُغلق الشوارع ويُكتشف الازدحام بعد وقوعه، دون تحليل مسبق لحجم الأثر المتوقع.</p>
+                </div>
+                <div class="card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">2</div>
+                    <p><strong>غياب مسارات بديلة مدروسة آلياً:</strong> لا تتوفر أداة تقترح تلقائياً أفضل توقيت ومسار بديل قبل التنفيذ.</p>
+                </div>
+                <div class="card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">3</div>
+                    <p><strong>تشتت الأثر على الأحياء:</strong> المشاريع المتزامنة تتراكم على نفس المحاور دون تنسيق زمني.</p>
+                </div>
+                <div class="card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-icon">4</div>
+                    <p><strong>اعتماد كبير على البلاغ اليدوي:</strong> رصد أخطار الطريق يعتمد اليوم على مبادرة المواطن بدل الرصد الاستباقي.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: KPIs (مؤشرات القياس المستهدفة) -->
+    <section class="kpi-section" id="kpis">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>مؤشرات القياس المستهدفة</h2>
+                <p>مستهدفات رسمية نسعى لتحقيقها لرفع جودة الحياة وتخفيف العبء المروري.</p>
+            </div>
+            <div class="kpi-grid">
+                <div class="kpi-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="kpi-icon">📉</div>
+                    <h3>خفض عدد المشاريع المتزامنة في المحور</h3>
+                </div>
+                <div class="kpi-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="kpi-icon">⏱️</div>
+                    <h3>تقليل متوسط زمن الرحلة في المناطق المتأثرة</h3>
+                </div>
+                <div class="kpi-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="kpi-icon">🚦</div>
+                    <h3>الحد من نسبة زيادة الازدحام</h3>
+                </div>
+                <div class="kpi-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="kpi-icon">🗣️</div>
+                    <h3>تقليل عدد شكاوى السكان</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: The Proposed Solution -->
+    <section class="solution-section" id="solution">
+        <div class="container solution-container">
+            <div class="solution-content" data-aos="zoom-in" data-aos-duration="1000">
+                <h2>الحل الجذري المبتكر</h2>
+                <p class="solution-lead text-gradient">
+                    "منصّة مسار — خدمة ذكاء اصطناعي تُضاف داخل خدمة تصاريح أعمال الحفر في منصة بلدي."
+                </p>
+                <p class="solution-desc">
+                    الخدمة مصمَّمة لتخدم طرفين: الجهات المنفّذة عبر طابور موحّد ينسّق مشاريعها، والمواطن عبر رصد آلي لأخطار الطريق.
+                </p>
+                <!-- Abstract AI illustration placeholder -->
+                <div class="illustration-placeholder glass-panel mt-4">
+                    <div class="ai-nodes">
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node center-node">مسار</div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                    </div>
+                    <span>رسم توضيحي تجريدي لترابط البيانات الذكية</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Scientific Innovation Basis (SEM Model) -->
+    <section class="science-section bg-light" id="science">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>الأساس العلمي والابتكار</h2>
+                <p>نموذج معادلات هيكلية (SEM): أسلوب تحليل رياضي وإحصائي متقدم (Structural Equation Modeling) يدرس العلاقات السببية المعقدة لفهم وتحليل الأثر المروري بدقة عالية.</p>
+            </div>
+            <div class="sem-flow">
+                <div class="sem-step" data-aos="fade-left" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <h3>المتغير المستقل</h3>
+                    <p>نوع المشروع (حفر/صيانة)<br>الموقع<br>المدة</p>
+                </div>
+                <div class="sem-arrow" data-aos="fade-left" data-aos-delay="200">
+                    <svg width="40" height="24" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12H38M38 12L28 2M38 12L28 22" stroke="currentColor" stroke-width="3"/></svg>
+                </div>
+                <div class="sem-step" data-aos="fade-left" data-aos-delay="300">
+                    <div class="step-number">2</div>
+                    <h3>المتغير الوسيط</h3>
+                    <p>نسبة تقليص مسارات السير<br>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin: 6px 0; color: var(--primary-cyan);"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                    <br>معدل التدفق المروري الحالي</p>
+                </div>
+                <div class="sem-arrow" data-aos="fade-left" data-aos-delay="400">
+                    <svg width="40" height="24" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12H38M38 12L28 2M38 12L28 22" stroke="currentColor" stroke-width="3"/></svg>
+                </div>
+                <div class="sem-step step-final" data-aos="fade-left" data-aos-delay="500">
+                    <div class="step-number">3</div>
+                    <h3>المتغير التابع</h3>
+                    <p>مستوى الازدحام المتوقع<br>الأحياء المتأثرة<br>الوقت المفقود</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Prototype Components (Interactive Tabs) -->
+    <section class="prototype-section" id="prototype">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>مكونات النموذج الأولي</h2>
+                <p>نظام متكامل يربط البيانات بالقرارات الذكية في الوقت الفعلي.</p>
+            </div>
+            <div class="tabs-container">
+                <div class="tabs-menu" data-aos="fade-left">
+                    <button class="tab-btn active" data-tab="tab-1">طبقة البيانات</button>
+                    <button class="tab-btn" data-tab="tab-2">محرك التنبؤ</button>
+                    <button class="tab-btn" data-tab="tab-3">لوحة القرار</button>
+                    <button class="tab-btn" data-tab="tab-4">التوصية الزمنية</button>
+                    <button class="tab-btn" data-tab="tab-5">بوابة الجهات</button>
+                    <button class="tab-btn" data-tab="tab-6">واجهة المواطن</button>
+                </div>
+                <div class="tabs-content" data-aos="fade-right">
+                    <!-- Tab 1 -->
+                    <div class="tab-pane active glass-panel dashboard-mockup" id="tab-1">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="mockup-body">
+                            <h3>طبقة البيانات</h3>
+                            <p>بيانات المشروع ونظام المسح الجوي وبيانات مرورية.</p>
+                            <div class="mockup-visual placeholder-bg">واجهة استعراض طبقات البيانات الجغرافية والمرورية</div>
+                        </div>
+                    </div>
+                    <!-- Tab 2 -->
+                    <div class="tab-pane glass-panel dashboard-mockup" id="tab-2">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="mockup-body">
+                            <h3>محرك التنبؤ</h3>
+                            <p>نموذج يربط نسبة إغلاق المسار بزمن الرحلة الإضافي.</p>
+                            <div class="mockup-visual placeholder-bg">رسوم بيانية ونماذج الذكاء الاصطناعي للتنبؤ</div>
+                        </div>
+                    </div>
+                    <!-- Tab 3 -->
+                    <div class="tab-pane glass-panel dashboard-mockup" id="tab-3">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="mockup-body">
+                            <h3>لوحة القرار</h3>
+                            <p>خريطة تفاعلية بتدرج لوني حسب شدة الازدحام ومسارات بديلة.</p>
+                            <div class="mockup-visual placeholder-bg">خريطة حرارية تفاعلية للازدحام (Heatmap)</div>
+                        </div>
+                    </div>
+                    <!-- Tab 4 -->
+                    <div class="tab-pane glass-panel dashboard-mockup" id="tab-4">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="mockup-body">
+                            <h3>التوصية الزمنية</h3>
+                            <p>أفضل نافذة لبدء العمل، مع مقارنة حية.</p>
+                            <div class="mockup-visual placeholder-bg">جدول زمني يوضح نوافذ العمل المتاحة وتأثيرها</div>
+                        </div>
+                    </div>
+                    <!-- Tab 5 -->
+                    <div class="tab-pane glass-panel dashboard-mockup" id="tab-5">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="mockup-body">
+                            <h3>بوابة الجهات</h3>
+                            <p>طابور موحّد يعرض طلبات الجهات ويكشف التعارض.</p>
+                            <div class="mockup-visual placeholder-bg">لوحة تحكم إدارة الطلبات واكتشاف التعارضات (Conflicts)</div>
+                        </div>
+                    </div>
+                    <!-- Tab 6 -->
+                    <div class="tab-pane glass-panel dashboard-mockup" id="tab-6">
+                        <div class="mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="mockup-body">
+                            <h3>واجهة المواطن</h3>
+                            <p>عرض الأخطار المرصودة آلياً ونموذج إبلاغ مبسّط.</p>
+                            <div class="mockup-visual placeholder-bg">واجهة تطبيق جوال مخصصة لخدمات المواطن</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Evaluation Criteria (لماذا مسار؟) -->
+    <section class="criteria-section bg-light" id="criteria">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>لماذا مسار؟ (التوافق مع معايير التقييم)</h2>
+                <p>صُمم "مسار" ليتجاوز التوقعات ويحقق التميز في جميع أبعاد التقييم الرسمية.</p>
+            </div>
+            <div class="criteria-grid">
+                <div class="criteria-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="criteria-number">1</div>
+                    <h3>مدى معالجة الحل للتحدي</h3>
+                    <p>يقدم مخرجات قابلة للقياس تحسن انسيابية الحركة المرورية جذرياً.</p>
+                </div>
+                <div class="criteria-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="criteria-number">2</div>
+                    <h3>مستوى الابتكار والإبداع</h3>
+                    <p>يحوّل نموذج بحثي معقد (SEM) إلى محرك قرار تشغيلي ذكي ومبسط.</p>
+                </div>
+                <div class="criteria-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="criteria-number">3</div>
+                    <h3>قابلية التطبيق والتنفيذ</h3>
+                    <p>يتكامل تقنياً ونظامياً مع منصة "بلدي" ولائحة تراخيص الحفريات (TIS) دون الحاجة لمنصات جديدة.</p>
+                </div>
+                <div class="criteria-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="criteria-number">4</div>
+                    <h3>الأثر المتوقع واستدامة الحل</h3>
+                    <p>تشغيل فوري يعتمد على "المسح الجوي" كخط أساس، مع قابلية التوسع لربطه بحساسات المراقبة الحية مستقبلاً.</p>
+                </div>
+                <div class="criteria-card glass-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="criteria-number">5</div>
+                    <h3>جودة النموذج الأولي</h3>
+                    <p>واجهات تفاعلية متكاملة تحاكي طبقة البيانات، محرك التنبؤ، ولوحة اتخاذ القرار.</p>
+                </div>
+                <div class="criteria-card glass-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="criteria-number">6</div>
+                    <h3>جودة العرض والتواصل</h3>
+                    <p>قصة مترابطة تبدأ من رصد نقطة الألم وصولاً إلى إصدار التوصية التشغيلية الآلية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: Value Chain (Steps) -->
+    <section class="value-chain" id="value-chain">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>سلسلة القيمة وتكامل النظام</h2>
+                <p>كيف يتكامل مسار مع الأنظمة القائمة لإنتاج قرارات دقيقة.</p>
+            </div>
+            <div class="chain-container">
+                <div class="chain-line"></div>
+                <div class="chain-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="chain-dot"></div>
+                    <div class="chain-content glass-card">
+                        <h3>المسح الجوي (بلدي)</h3>
+                        <p>خط الأساس دون حاجة لبنية تحتية مثبّتة.</p>
+                    </div>
+                </div>
+                <div class="chain-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="chain-dot"></div>
+                    <div class="chain-content glass-card">
+                        <h3>المسار المعلق</h3>
+                        <p>معايرة حية مستقبلية لتحسين الدقة تدريجياً.</p>
+                    </div>
+                </div>
+                <div class="chain-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="chain-dot primary-dot"></div>
+                    <div class="chain-content glass-card primary-card">
+                        <h3>تحليل AI</h3>
+                        <p>دمج الطبقتين لإنتاج القرار التشغيلي.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: Expected Impact (Animated Counters) -->
+    <section class="impact-section bg-light" id="impact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>الأثر المتوقع</h2>
+                <p>أرقام تعكس التحسن الكبير في جودة الحياة وكفاءة المشاريع.</p>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="counter-wrap">
+                        <span class="counter" data-target="40">0</span><span class="plus">%+</span>
+                    </div>
+                    <p>تحسن في دقة توقع الازدحام بشكل استباقي</p>
+                </div>
+                <div class="impact-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="counter-wrap">
+                        <span class="counter" data-target="30">0</span><span class="plus">%+</span>
+                    </div>
+                    <p>تقليل زمن الرحلة الإضافي للسكان في مناطق المشاريع</p>
+                </div>
+            </div>
+        </div>
+        <div class="glow-blob blob-3"></div>
+    </section>
+
+    <!-- SECTION 8: Footer & Team -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="logo2.png" alt="شعار مسار" class="footer-logo-img">
+                    <h2>مسار<span class="logo-dot">.</span></h2>
+                    <p>بلديتاثون 2026 - التحدي الثالث: بنية تحتية وحركة مرورية</p>
+                </div>
+                <div class="footer-team">
+                    <h3>فريق العمل</h3>
+                    <ul>
+                        <li>إبراهيم أمين هوسه (مهندس ميكانيكي)</li>
+                        <li>ريان أمين هوسه (مهندس كهربائي)</li>
+                        <li>رائد أمين هوسه (علوم حاسب آلي)</li>
+                        <li>عبدالله سعيد جلاله (مهندس كهربائي)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 مشروع مسار. جميع الحقوق محفوظة لبلديتاثون.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
