@@ -938,6 +938,18 @@ p {
     .hero-buttons {
         justify-content: center;
     }
+    .hero-badges {
+        align-items: center;
+    }
+    .hero-badges .badge {
+        text-align: center;
+    }
+    .team-members-list {
+        align-items: center;
+    }
+    .hero-title .text-gradient {
+        margin: 8px auto 0 auto;
+    }
     .tabs-container {
         grid-template-columns: 1fr;
     }
@@ -959,6 +971,10 @@ p {
 }
 
 @media (max-width: 768px) {
+    .problem-section, .solution-section, .science-section, 
+    .prototype-section, .criteria-section, .value-chain, .impact-section {
+        padding: 60px 0;
+    }
     .problem-grid, .impact-grid, .footer-top {
         grid-template-columns: 1fr;
     }
@@ -967,5 +983,39 @@ p {
     }
     .hero-title {
         font-size: 2rem;
+    }
+    .hero-subtitle {
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .btn {
+        width: 100%;
+    }
+    .counter-wrap {
+        font-size: 3.5rem;
+    }
+    .plus {
+        font-size: 2.5rem;
+    }
+    .criteria-grid, .kpi-grid {
+        grid-template-columns: 1fr;
+    }
+    .chain-line {
+        right: 14px;
+    }
+    .chain-dot {
+        margin-left: 16px;
+        width: 16px;
+        height: 16px;
+    }
+    .criteria-number {
+        font-size: 6rem;
+    }
+    .ai-nodes {
+        transform: scale(0.8);
     }
 }
